@@ -1,0 +1,181 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    border:border-box;
+}
+body{
+    background-color: #141414;
+    background-image: url("bg_netflix.jpg");
+    height:95%vh;
+}
+.navbar{
+    height:100px;
+    display:flex;
+    background-color: black;
+    align-items: center;
+}
+.nav-logo{
+    height:80px;
+    width:150px;
+    padding:15px;
+    margin:50px;
+}
+.logo{
+    height:80px;
+    width:150px;
+    background-image: url("logo_netflix.jpg");
+    background-size: cover;
+}
+.login{
+    background-color: rgb(0,0,0,0.5);
+    height:520px;
+    width:25em;
+    margin: auto; /* Automatically adjusts margin */
+    position: absolute;
+    top:150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top:40px;
+    padding-left:50px;
+}
+h1{
+    color:white;
+    font-weight:900;
+}
+.form{
+    padding:20px;
+}
+.form input{
+    margin-top:20px;
+    height:50px;
+    width:19em;
+    color:#b3b3b3;
+    background-color: rgb(0,0,0,0.5);
+    border:0.1px solid #b3b3b3;
+    border-radius: 5px;
+    text-align:start;
+    font-size:1rem;
+}
+.signin{
+    border:none;
+    width:23em;
+    height:40px;
+    border-radius: 5px;
+    margin-top:20px;
+}
+.signin button{
+    background-color:#E50914;
+    width:23em;
+    height:40px;
+    border-radius: 7px;
+    color:white;
+    font-size:0.85rem;
+    font-weight:700;
+    border:none;
+}
+.or{
+    width:23em;
+    height:20px;
+    color:#b3b3b3;
+    font-size:1rem;
+    padding-left:150px;
+    margin-top:10px
+}
+.code button{
+    background-color: rgba(122, 113, 113, 0.5);
+    width:23em;
+    height:40px;
+    border-radius: 7px;
+    color:white;
+    font-size:0.85rem;
+    font-weight:700;
+    border:none;
+}
+.forgot{
+    width:23em;
+    height:20px;
+    color:white;
+    font-size:1rem;
+    padding-left:100px;
+    margin-top:15px;
+}
+.check{
+    font-size: 1rem;
+    color:white;
+    padding-left:20px;
+}
+.check input{
+    color:white;
+    background-color: black;
+    border:0.1px solid white;
+}
+.signup{
+    display:flex;
+    padding-left:20px;
+    margin-top:20px;
+}
+.netflix{
+    color:#b3b3b3;
+    font-size:1rem;
+}
+.signup a {
+    color:white;
+    text-decoration:none;
+    font-weight:400;
+}
+.captcha{
+    margin-top:30px;
+    color:#b3b3b3;
+    font-size:0.8em;
+    width:25em;
+    padding-left:20px;
+}
+.captcha a{
+    text-decoration: none;
+    color:blue;
+}
+footer{
+    background-color: black;
+    height:400px;
+    margin-top:580px;
+    color:#b3b3b3;
+    border-top:none;
+}
+.ques{
+    padding-top:250px;
+    padding-left:170px;
+    padding-bottom:20px;
+    font-size:1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.ques a{
+    text-decoration: none;
+}
+.links{
+    display:flex;
+    font-size: rem;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-evenly;
+}
+.faq{
+    display:block;
+    color:#b3b3b3;
+}
+.help{
+    display:block;
+    color:#b3b3b3
+}
+a{
+    color:#b3b3b3;
+}
+ul li{
+    list-style-type: none;
+    margin:5px;
+    padding:5px;
+}
+.ques p{
+    color:#b3b3b3;
+    text-align:left;
+}
